@@ -11,7 +11,13 @@
 
 # ...even if they are in subdirectories
 # !*/
-!*/.emacs.d/init.el
 
 # if the files to be tracked are in subdirectories
 # !*/a/b/file1.txt
+!.emacs.d/
+!.emacs.d/init.el
+!.oh-my-zsh/
+!.oh-my-zsh/themes
+!.oh-my-zsh/themes/k1te.zsh-theme
+
+
