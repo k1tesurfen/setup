@@ -1,0 +1,9 @@
+export PATH="/usr/local/sbin:$PATH"
+\alias e='/usr/local/Cellar/emacs/25.3/Emacs.app/Contents/MacOS/Emacs -nw'
+\alias speedtest='speedtest-cli --simple'
+\alias es='/usr/local/Cellar/emacs/25.3/Emacs.app/Contents/MacOS/Emacs -nw'
+\alias ls='ls -G'
+\alias ll='ls -a'
+\alias cdhome='cd ~'
+\alias cdgit='cd ~/Documents/git'
+export PATH="/usr/local/sbin:$PATH"

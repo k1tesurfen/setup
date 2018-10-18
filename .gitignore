@@ -1,0 +1,17 @@
+# Ignore everything
+*
+
+# But not these files...
+# !script.pl
+!.bash_profile
+!.zshrc
+!.gitignore
+
+
+
+# ...even if they are in subdirectories
+# !*/
+!.emacs.d/.init.el
+
+# if the files to be tracked are in subdirectories
+# !*/a/b/file1.txt
