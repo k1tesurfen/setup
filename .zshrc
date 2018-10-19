@@ -109,6 +109,8 @@ alias cdgit="cd ~/Documents/git"
 alias brewski='brew update && brew upgrade && brew cleanup; brew doctor'
 alias so="source ~/.zshrc && rehash"
 alias zshconfig="e ~/.zshrc"
+alias tofinder="ofd"
+alias fromfinder="cdf"
 
 #======================================================================================
 # functions
