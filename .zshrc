@@ -111,6 +111,9 @@ alias so="source ~/.zshrc && rehash"
 alias zshconfig="e ~/.zshrc"
 alias tofinder="ofd"
 alias fromfinder="cdf"
+alias ga="git add ."
+alias gs="git status"
+
 
 #======================================================================================
 # functions
