@@ -1,5 +1,8 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# zsh tmux settings
+ZSH_TMUX_AUTOSTART='true'
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/km/.oh-my-zsh"
@@ -63,7 +66,7 @@ ZSH_THEME="k1te"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git osx colored-man-pages 
+  git osx colored-man-pages tmux  
 )
 
 source $ZSH/oh-my-zsh.sh
