@@ -217,11 +217,14 @@ prompt_virtualenv() {
 prompt_status() {
   local -a symbols
 
-  [[ $RETVAL -ne 0 ]] && symbols+="%{%F{red}%}✘"
-  [[ $UID -eq 0 ]] && symbols+="%{%F{yellow}%}⚡"
+#  [[ $RETVAL -ne 0 ]] && symbols+="%{%F{red}%}✘"
+  [[ $RETVAL -ne 0 ]] && prompt_segment red default
+#  [[ $RETVAL -eq 0 ]] && symbols+="%{%F{blue}%}✔"
+  [[ $RETVAL -eq 0 ]] && prompt_segment blue default
+  [[ $UID -eq 0 ]] && symbols+="%{%F{blue}F%{}%}⚡"
   [[ $(jobs -l | wc -l) -gt 0 ]] && symbols+="%{%F{cyan}%}⚙"
 
-  [[ -n "$symbols" ]] && prompt_segment black default "$symbols"
+  [[ -n "$symbols" ]] && prompt_segment blue default "$symbols"
 }
 
 local time="%{$reset_color%}%{$fg_bold[blue]%}%t%{$reset_color%}"
