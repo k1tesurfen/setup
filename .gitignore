@@ -7,7 +7,7 @@
 !.zshrc
 !.gitignore
 !.tmux.conf
-
+!.vimrc
 
 # ...even if they are in subdirectories
 # !*/
@@ -19,5 +19,5 @@
 !.oh-my-zsh/
 !.oh-my-zsh/themes
 !.oh-my-zsh/themes/k1te.zsh-theme
-
+!.vim/
 
