@@ -55,7 +55,7 @@ ZSH_THEME="k1te"
 # "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 # or set a custom format using the strftime function format specifications,
 # see 'man strftime' for details.
-# HIST_STAMPS="mm/dd/yyyy"
+HIST_STAMPS="dd.mm.yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
@@ -112,13 +112,14 @@ alias cdgit="cd ~/Documents/git"
 alias brewski='brew update && brew upgrade && brew cleanup; brew doctor'
 alias so="source ~/.zshrc && rehash"
 alias sotmux="tmux source-file ~/.tmux.conf"
-alias zshconfig="e ~/.zshrc"
-alias tmuxconfig="e ~/.tmux.conf"
+alias zshconfig="v ~/.zshrc"
+alias tmuxconfig="v ~/.tmux.conf"
 alias tofinder="ofd"
 alias fromfinder="cdf"
 alias ga="git add ."
 alias gs="git status"
-
+alias v="vim"
+alias vimconfig="vim ~/.vimrc"
 
 #======================================================================================
 # functions

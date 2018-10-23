@@ -79,7 +79,7 @@ set notimeout
 set ttimeout
 set ttimeoutlen=10
 
-set colorcolumn=80 " show column number 80
+" set colorcolumn=80 " show column number 80
 
 set nofoldenable " disable folding
 
@@ -296,4 +296,4 @@ set completeopt=menuone
 " =============================================================================
 " =============================================================================
 " colorscheme must always stay at the bottom
-" colorscheme base16-mary
+colorscheme ryuuko
