@@ -149,3 +149,9 @@ function gitgut() {
     echo "Und jetzt hau wech die Scheiße!"
     git push
 }
+
+function mkcdir()
+{
+    mkdir -p -- "$1" &&
+      cd -P -- "$1"
+}
