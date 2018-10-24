@@ -150,7 +150,7 @@ function gitgut() {
     git push
 }
 
-function mkcdir()
+function mkd()
 {
     mkdir -p -- "$1" &&
       cd -P -- "$1"
