@@ -155,3 +155,9 @@ function mkd()
     mkdir -p -- "$1" &&
       cd -P -- "$1"
 }
+
+function gitreset() {
+
+    git reset --hard origin/"$1"
+
+}
