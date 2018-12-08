@@ -104,11 +104,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias e="/usr/local/Cellar/emacs/26.1_1/Emacs.app/Contents/MacOS/Emacs -nw"
 alias speedtest="speedtest-cli --simple"
 alias ls="ls -G"
 alias ll="ls -a"
-alias cdgit="cd ~/Documents/git"
 alias brewski='brew update && brew upgrade && brew cleanup; brew doctor'
 alias so="source ~/.zshrc && rehash"
 alias sotmux="tmux source-file ~/.tmux.conf"
@@ -121,6 +119,11 @@ alias gs="git status"
 alias v="vim"
 alias vimconfig="vim ~/.vimrc"
 alias python="python3"
+alias copydir="pwd|pbcopy"
+alias sshhome="ssh -p22 k1te@109.235.227.249"
+alias cduni="cd ~/Documents/uni/"
+alias cdgit="cd ~/Documents/git/"
+
 #======================================================================================
 # functions
 #======================================================================================
@@ -161,3 +164,4 @@ function gitreset() {
     git reset --hard origin/"$1"
 
 }
+export PATH="/usr/local/sbin:$PATH"
