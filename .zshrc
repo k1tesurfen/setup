@@ -123,6 +123,7 @@ alias copydir="pwd|pbcopy"
 alias sshhome="ssh -p22 k1te@109.235.227.249"
 alias cduni="cd ~/Documents/uni/"
 alias cdgit="cd ~/Documents/git/"
+alias cddev="cd ~/Documents/projects/08dev/"
 
 #======================================================================================
 # functions
