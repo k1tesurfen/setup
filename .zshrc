@@ -124,6 +124,7 @@ alias sshhome="ssh -p22 k1te@109.235.227.249"
 alias cduni="cd ~/Documents/uni/"
 alias cdgit="cd ~/Documents/git/"
 alias cddev="cd ~/Documents/projects/08dev/"
+alias fixaudio="sudo kill -9 `ps ax|grep 'coreaudio[a-z]' | awk '{print $1}'`"
 
 #======================================================================================
 # functions
