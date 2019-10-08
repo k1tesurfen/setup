@@ -1,5 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/.gem/ruby/2.6.0/bin:$PATH
 
 # zsh tmux settings
 #ZSH_TMUX_AUTOSTART='true'
@@ -167,3 +168,5 @@ function gitreset() {
 
 }
 export PATH="/usr/local/sbin:$PATH"
+
+eval $(thefuck --alias)
